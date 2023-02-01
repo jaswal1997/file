@@ -1,0 +1,29 @@
+.images-fun{
+  display: flex;
+height: 20rem;
+gap: 1rem;
+}
+.images-fun > div{
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  transition: all 0.8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.images-fun > div:hover{
+  flex: 5;
+}
+/**for click box**/
+.bon{display: inline-block;
+  text-decoration: none;
+  background: #dc143c;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-family: helvita;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 8px 0#dc143c;
+  transition: all 0.2s;}
+  .bon:active{transform: translate(4px);
+      box-shadow: 0 4px 0 #dc143c;}
